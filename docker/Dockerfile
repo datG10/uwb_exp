@@ -10,7 +10,7 @@ SHELL ["/bin/bash", "-c"]
 
 # Install necessary packages
 RUN mkdir -p ~/ros2_ws/src && \
-    git clone https://github.com/datG10/uwb_exp_indoor.git ~/ros2_ws/src/uwb_exp_indoor
+    git clone https://github.com/datG10/uwb_exp.git ~/ros2_ws/src/uwb_exp_indoor
 
 RUN apt-get update && \
     apt-get install -y git python3-pip python3-colcon-common-extensions cmake && \
